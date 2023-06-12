@@ -1,0 +1,10 @@
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\bin\Debug\Triangulation.exe.config
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\bin\Debug\Triangulation.exe
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\bin\Debug\Triangulation.pdb
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.csproj.AssemblyReference.cache
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.Form1.resources
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.Properties.Resources.resources
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.csproj.GenerateResource.cache
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.csproj.CoreCompileInputs.cache
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.exe
+C:\Users\matve\OneDrive\Рабочий стол\папки\c# prj\Triangulation\Triangulation\obj\Debug\Triangulation.pdb

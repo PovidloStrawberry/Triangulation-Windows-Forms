@@ -1,0 +1,111 @@
+12.06.2023 21:53:26
+Next edges are crossing in 280,4787:
+0 2 163 276   408 555
+3 1 481 109   231 484
+ 
+Next edges are crossing in 280,4787:
+0 2 163 276   408 555
+3 1 481 109   231 484
+ 
+3 1 481 109 231 484 True
+Next edges are crossing in 568,6169:
+4 2 572 225   408 555
+5 3 725 451   481 109
+ 
+Next edges are crossing in 568,6169:
+4 2 572 225   408 555
+5 3 725 451   481 109
+ 
+5 3 725 451 481 109 True
+Next edges are crossing in 863,0252:
+5 2 725 451   408 555
+6 4 944 456   572 225
+ 
+Next edges are crossing in 863,0252:
+5 2 725 451   408 555
+6 4 944 456   572 225
+ 
+6 4 944 456 572 225 True
+Next edges are crossing in 589,3082:
+4 2 572 225   408 555
+6 3 944 456   481 109
+ 
+Next edges are crossing in 589,3082:
+4 2 572 225   408 555
+6 3 944 456   481 109
+ 
+6 3 944 456 481 109 True
+Next edges are crossing in 777,3607:
+4 3 572 225   481 109
+6 2 944 456   408 555
+ 
+Next edges are crossing in 777,3607:
+4 3 572 225   481 109
+6 2 944 456   408 555
+ 
+6 2 944 456 408 555 True
+Next edges are crossing in 341,8304:
+0 2 163 276   408 555
+6 1 944 456   231 484
+ 
+Next edges are crossing in 341,8304:
+0 2 163 276   408 555
+6 1 944 456   231 484
+ 
+6 1 944 456 231 484 True
+12.06.2023 22:03:09
+Next edges are crossing in 644,8449:
+3 1 697 352   497 510
+4 2 731 708   601 233
+ 
+Next edges are crossing in 644,8449:
+3 1 697 352   497 510
+4 2 731 708   601 233
+ 
+4 2 731 708 601 233 True
+12.06.2023 22:03:20
+Next edges are crossing in 304,2212:
+3 1 314 257   287 479
+4 2 356 510   299 320
+ 
+Next edges are crossing in 304,2212:
+3 1 314 257   287 479
+4 2 356 510   299 320
+ 
+4 2 356 510 299 320 True
+Next edges are crossing in 422,6018:
+5 3 475 377   314 257
+6 4 476 200   356 510
+ 
+Next edges are crossing in 422,6018:
+5 3 475 377   314 257
+6 4 476 200   356 510
+ 
+6 4 476 200 356 510 True
+Next edges are crossing in 549,0085:
+8 6 609 606   476 200
+9 7 623 518   546 419
+ 
+Next edges are crossing in 549,0085:
+8 6 609 606   476 200
+9 7 623 518   546 419
+ 
+9 7 623 518 546 419 True
+Next edges are crossing in 897,0189:
+14 12 971 225   815 623
+15 13 1023 558   892 408
+ 
+Next edges are crossing in 897,0189:
+14 12 971 225   815 623
+15 13 1023 558   892 408
+ 
+15 13 1023 558 892 408 True
+Next edges are crossing in 1180,046:
+17 15 1217 502   1023 558
+18 16 1217 643   1124 315
+ 
+Next edges are crossing in 1180,046:
+17 15 1217 502   1023 558
+18 16 1217 643   1124 315
+ 
+18 16 1217 643 1124 315 True
