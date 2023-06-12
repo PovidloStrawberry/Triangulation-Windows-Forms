@@ -34,6 +34,18 @@ namespace Triangulation
         private Pen pen = new Pen(Brushes.Black);
         private Pen dots_Pen = new Pen(Brushes.White);
         private StreamWriter fileWriter = new StreamWriter("C:\\Users\\matve\\OneDrive\\Рабочий стол\\папки\\c# prj\\Triangulation\\text_Output.txt", true, Encoding.ASCII);
+        private int point_Size
+        {
+            get
+            {
+                return point_Size;
+            }
+            set
+            {
+                if (value % 2 == 0)
+                    point_Size = value;
+            }
+        }
         public Form1()
         {
             InitializeComponent();
@@ -72,6 +84,9 @@ namespace Triangulation
             float b2 = x22 - x21;
             float c2 = x21 * y22 - x22 * y21;
 
+            if (a1 * b2 - a2 * b1 == 0)
+                return -1;
+
             float x = (b1 * c2 - b2 * c1) / (a1 * b2 - a2 * b1);
 
             if ( (x > x11 && x < x12 || x > x12 && x < x11) && (x > x21 && x < x22 || x > x22 && x < x21))
@@ -106,10 +121,13 @@ namespace Triangulation
                 int posX = PictureBox.MousePosition.X - splitContainer1.Panel1.Width - 10;
                 int posY = PictureBox.MousePosition.Y - 35;
 
-                points.Add(new Point(posX + 5, posY + 5));
+                Point new_Point = new Point(posX + 5, posY + 5);
 
-                graphics.FillRectangle(Brushes.Black, posX, posY, 10, 10);
-                pictureBox1.Refresh();
+                if (points.IndexOf(new_Point) == -1) {
+                    points.Add(new_Point);
+                    graphics.FillRectangle(Brushes.Black, posX, posY, 10, 10);
+                    pictureBox1.Refresh();
+                }
             }
         }
 
@@ -126,6 +144,7 @@ namespace Triangulation
 
         private void button2_Click(object sender, EventArgs e) // триангуляция
         {
+            edges.Clear();
             if (points.Count >= 3 && graphics != null)
             {
                 graphics.Clear(Color.White);
@@ -182,14 +201,12 @@ namespace Triangulation
                 List<Point> i_Point_Bounds = new List<Point>();
                 for (int j = 0; j < points.Count - 1; j++)
                 {
-
                     if (j + 1 != i)
                     {
                         Point current_Point_Center = new Point(points[i].X - (points[i].X - points[j + 1].X) / 2, points[i].Y - (points[i].Y - points[j + 1].Y) / 2);
                         graphics.FillRectangle(Brushes.Red, current_Point_Center.X, current_Point_Center.Y, 3, 3);
                         i_Point_Bounds.Add(current_Point_Center);
                     }
-
                 }
                 points_centers.Add(i_Point_Bounds);
             }
